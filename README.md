@@ -81,3 +81,9 @@ Formato Json retornado:
   }
 ```
 ### (END-POINT) PARA ACESSO
+###### Endpoint_base: GET localhost:3333/api
+##### PARA BUSCAR POR NOME DO CAVALEIRO
+###### Endpoint_chave: GET /cavaleiro?c=NOME_DO_CAVALEIRO
+##### PARA LISTAR TODOS OS CAVALEIROS
+###### Endpoint_chave: GET /list
+
