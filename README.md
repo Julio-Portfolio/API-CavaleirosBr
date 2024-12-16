@@ -1,7 +1,7 @@
 
 ## API REST COM NODE.JS 
 
-"Este projeto foi criado como parte de um portfólio e para estudo. Trata-se de uma API REST com a temática Cavaleiros do Zodíaco RPG, onde é possível listar todos os cavaleiros e buscar atributos específicos de cada um para consultas detalhadas."
+"Este projeto foi desenvolvido como parte de um portfólio e para estudo. Trata-se de uma API REST com a temática Cavaleiros do Zodíaco RPG, onde é possível listar todos os cavaleiros e buscar atributos específicos de cada um para consultas detalhadas."
 
 # Neste projeto encontraremos !
 #####  - A arquitetura do projeto segue o padrão Layered Architecture (Arquitetura em Camadas), onde o código está dividido em camadas com responsabilidades bem definidas. O objetivo é garantir a clareza, a manutenção fácil e a escalabilidade. !
@@ -81,9 +81,11 @@ Formato Json retornado:
   }
 ```
 ### (END-POINT) PARA ACESSO
-###### Endpoint_base: GET localhost:3333/api
+###### Endpoint_base: 'GET: localhost:3333/api'
 ##### PARA BUSCAR POR NOME DO CAVALEIRO
-###### Endpoint_chave: GET /cavaleiro?c=NOME_DO_CAVALEIRO
+###### Endpoint_chave: 'GET: /cavaleiro?c=NOME_DO_CAVALEIRO'
 ##### PARA LISTAR TODOS OS CAVALEIROS
-###### Endpoint_chave: GET /list
+###### Endpoint_chave: 'GET: /list'
+Exemplo de link : localhost:3333/api/cavaleiro?c=NOME_DO_CAVALEIRO
 
+*** BREVE MAIS MODELOS DE FILTRO , POR ENQUANTO SOMENTE POR NOME ***
